@@ -1,0 +1,57 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build files
+dist/
+build/
+out/
+
+# Temporary files
+tmp/
+temp/
+.cache/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Coverage files
+coverage/
+*.lcov
+
+# Git-specific files
+*.orig
+
+# Ignore specific config files
+*.config.js
+*.env
+
+# Debugging tools
+*.pid
+*.seed
+*.tgz
+*.gz
+*.zip
+
+# Package-lock files (optional)
+# Uncomment if you want to ignore lock files (not recommended)
+# package-lock.json
+# yarn.lock
